@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.mmi.boot.sh \
-    init.mmi.radio.sh \
     init.mmi.rc \
     init.mmi.touch.sh \
     thermal-engine-8226.conf
