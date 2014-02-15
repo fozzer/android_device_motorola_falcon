@@ -36,6 +36,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # HAL
 PRODUCT_PACKAGES += \
+    gps.msm8226 \
     keystore.qcom \
     lights.MSM8226
 
@@ -59,9 +60,7 @@ PRODUCT_COPY_FILES += \
 
 # Gps
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/izat.conf:system/etc/izat.conf \
-    $(LOCAL_PATH)/quipc.conf:system/etc/quipc.conf \
-    $(LOCAL_PATH)/xtwifi.conf:system/etc/xtwifi.conf
+    $(LOCAL_PATH)/gps.conf:system/etc/gps.conf
 
 # Wifi
 PRODUCT_COPY_FILES += \
