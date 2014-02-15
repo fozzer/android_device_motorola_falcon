@@ -48,6 +48,9 @@ TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/motorola/falcon/init/init_falcon.c
 
+# Custom relese tools for unified devices
+TARGET_RELEASETOOLS_EXTENSIONS := device/motorola/falcon
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := xt1031,xt1032,xt1033,xt1034,falcon_umts,falcon_umtsds,falcon_cdma,falcon_retuaws,falcon
 
