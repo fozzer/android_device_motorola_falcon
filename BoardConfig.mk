@@ -68,6 +68,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 # Display
 TARGET_USES_C2D_COMPOSITION := true
 
+# GPS
+BOARD_HAVE_NEW_QC_GPS := true
+
 # Wifi related defines
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
